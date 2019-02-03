@@ -67,9 +67,10 @@ max-width: 100%
 }
 
 .container {
+  width: 65%;
   display: flex;
   flex-wrap: wrap;
-  margin: 1em;
+  margin: auto;
   padding: 2em;
 
 }
