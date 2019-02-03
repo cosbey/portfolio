@@ -1,0 +1,138 @@
+/*Curtis Osbey Portfolio Project 1 style sheet
+Filename: styles.css
+
+Author: Curtis Osbey
+Date: 12/31/18
+Udacity Front End Developer Nanodegree*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+img {
+max-width: 100%
+}
+
+/*header*/
+
+.header{
+  width: auto;
+  height: auto;
+  margin: 1em;
+}
+
+.header__logo{
+  height: 57px;
+  margin-top: 9px;
+}
+
+.header__title2 {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  border-bottom: 2px solid grey;
+  padding-bottom: 12px; 
+}
+
+.header__title{
+  text-align: right;
+  display: inline-block;
+  font-weight: 600;
+  float: right;
+  font-size: 57px;
+  margin: 1px;
+}
+
+.window{
+  margin: 1em;
+}
+.quote{
+  margin: 1em;
+  font-size: 19px;
+}
+
+.featured{
+  font-weight: 300;
+  color: #02b3e4;
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  padding: 2em;
+
+}
+
+.box {
+  width: 100%;
+  margin: 0.5em;
+}
+.link {
+  margin-top: 1px; 
+  text-align: center;
+  font-weight: lighter;
+}
+
+.title{
+  margin-bottom: 1px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.validation{
+  text-align: center;
+}
+
+.memory, .arcade, .reader {
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.19), 
+    0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+/*responsive screens*/
+
+@media screen and (min-width: 501px) {
+  .game1, .game2, .app {
+    width: 100%;
+  }
+  .quote{
+    font-size: 25px;
+  }
+}
+
+/*over 800px*/
+
+@media screen and (min-width: 800px) {
+  .game1, .game2, .app{
+    width: 30%;
+    margin: 13px;
+  }
+  .featured{
+    text-align: left;
+  }
+  .container, .header, .window, .featured, .quote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+  }
+}
+
+/*over 1024px*/
+@media screen and (min-width: 1024px) {
+  .container, .header, .window, .featured, .quote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+  }
+}      
