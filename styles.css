@@ -120,7 +120,7 @@ max-width: 100%
   }
 } */
 
-/*over 800px*/
+/*over 768px*/
 
 @media screen and (min-width: 768px) {
   .game1, .game2, .app{
@@ -138,6 +138,7 @@ max-width: 100%
   }
   .quote{
     font-size: 24px;
+    padding-left: 1em;
   }
 }
 
@@ -151,4 +152,15 @@ max-width: 100%
   .game1, .game2, .app{
     margin: 10px;
   }
-}      
+}    
+/* over 1366px */
+@media screen and (min-width: 1366px) {
+  .container, .header, .window, .featured, .quote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1201px;
+  }
+  .game1, .game2, .app{
+    margin: 14px;
+  }
+}     
