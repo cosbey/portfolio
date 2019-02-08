@@ -45,7 +45,6 @@ max-width: 100%
 .header__title{
   text-align: right;
   display: inline-block;
-  font-weight: 300;
   float: right;
   font-size: 57px;
   margin: 1px;
@@ -147,6 +146,9 @@ max-width: 100%
   .container, .header, .window, .featured, .quote {
     margin-left: auto;
     margin-right: auto;
-    width: 1024px;
+    width: 901px;
+  }
+  .game1, .game2, .app{
+    margin: 10px;
   }
 }      
