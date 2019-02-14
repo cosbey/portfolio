@@ -6,14 +6,14 @@ Date: 12/31/18
 Udacity Front End Developer Nanodegree*/
 
 
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 html, body {
   margin: 0;
   padding: 0;
 }
 
 body {
-font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 img {
