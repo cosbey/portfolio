@@ -29,7 +29,7 @@ max-width: 100%
 }
 
 .header__logo{
-  height: 57px;
+  height: 51px;
   margin-top: 9px;
 }
 
@@ -46,7 +46,7 @@ max-width: 100%
   text-align: right;
   display: inline-block;
   float: right;
-  font-size: 57px;
+  font-size: 51px;
   margin: 1px;
 }
 
@@ -104,10 +104,10 @@ max-width: 100%
 
 @media screen and (min-width: 411px) {
   .header__title {
-    font-size: 66px;
+    font-size: 59px;
   }
   .quote{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
